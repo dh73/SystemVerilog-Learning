@@ -1,0 +1,7 @@
+#1000 define_clock {p:clk} -name {sm_motor|clk} -ref_rise {0.0} -ref_fall {500.000000} -uncertainty {0.000000} -period {1000.000000} -clockgroup {Autoconstr_clkgroup_0} -rise {0.0} -fall {500.000000}
+#1001 define_clock {n:c_state[2]} -name {sm_motor|c_state_derived_clock[2]} -ref_rise {0.0} -ref_fall {500.000000} -uncertainty {0.000000} -period {1000.000000} -clockgroup {Autoconstr_clkgroup_0} -rise {0.0} -fall {500.000000}
+#1002 define_multicycle_path -setup -from {c:sm_motor|c_state_derived_clock[2]} -to {c:sm_motor|c_state_derived_clock[2]} {2}
+#1003 define_multicycle_path -hold -from {c:sm_motor|c_state_derived_clock[2]} -to {c:sm_motor|c_state_derived_clock[2]} {1} -disable
+#1004 define_clock {n:c_state[3]} -name {sm_motor|c_state_derived_clock[3]} -ref_rise {0.0} -ref_fall {500.000000} -uncertainty {0.000000} -period {1000.000000} -clockgroup {Autoconstr_clkgroup_0} -rise {0.0} -fall {500.000000}
+#1005 define_multicycle_path -setup -from {c:sm_motor|c_state_derived_clock[3]} -to {c:sm_motor|c_state_derived_clock[3]} {2}
+#1006 define_multicycle_path -hold -from {c:sm_motor|c_state_derived_clock[3]} -to {c:sm_motor|c_state_derived_clock[3]} {1} -disable

@@ -1,0 +1,28 @@
+##### START OF AREA REPORT #####[
+Design view:work.sm_motor(verilog)
+Selecting part EP4CE6U14I7
+
+Total combinational functions 50 of 6272 ( 0%)
+Logic element usage by number of inputs
+		  4 input functions 	 13
+		  3 input functions 	 9
+		  <=2 input functions 	 28
+Logic elements by mode
+		  normal mode            50
+		  arithmetic mode        0
+Total registers 4 of 6272 ( 0%)
+I/O pins 11 of 180 ( 6%), total I/O based on largest package of this part.
+
+Number of I/O registers
+			Input DDRs    :0
+			Output DDRs   :0
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 15 blocks (30 nine-bit).
+ShiftTap:       0  (0 registers)
+Total ESB:      0 bits 
+
+LPM latches:    34
+
+##### END OF AREA REPORT #####]
+

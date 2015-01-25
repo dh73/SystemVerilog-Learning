@@ -1,0 +1,39 @@
+@P:  Part : ep4ce6ui14-7
+@P:  Worst Slack : 994.963
+@P:  sm_motor|c_state_derived_clock[2] - Estimated Frequency : 198.5 MHz
+@P:  sm_motor|c_state_derived_clock[2] - Requested Frequency : 1.0 MHz
+@P:  sm_motor|c_state_derived_clock[2] - Estimated Period : 5.037
+@P:  sm_motor|c_state_derived_clock[2] - Requested Period : 1000.000
+@P:  sm_motor|c_state_derived_clock[2] - Slack : 994.963
+@P:  sm_motor|c_state_derived_clock[3] - Estimated Frequency : 377.8 MHz
+@P:  sm_motor|c_state_derived_clock[3] - Requested Frequency : 1.0 MHz
+@P:  sm_motor|c_state_derived_clock[3] - Estimated Period : 2.647
+@P:  sm_motor|c_state_derived_clock[3] - Requested Period : 1000.000
+@P:  sm_motor|c_state_derived_clock[3] - Slack : 997.353
+@P:  sm_motor|clk - Estimated Frequency : 198.5 MHz
+@P:  sm_motor|clk - Requested Frequency : 1.0 MHz
+@P:  sm_motor|clk - Estimated Period : 5.037
+@P:  sm_motor|clk - Requested Period : 1000.000
+@P:  sm_motor|clk - Slack : 997.620
+@P:  Worst Slack(min analysis) : -498.729
+@P:  sm_motor|c_state_derived_clock[2] - Estimated Frequency(min analysis) : 198.5 MHz
+@P:  sm_motor|c_state_derived_clock[2] - Requested Frequency(min analysis) : 1.0 MHz
+@P:  sm_motor|c_state_derived_clock[2] - Estimated Period(min analysis) : 5.037
+@P:  sm_motor|c_state_derived_clock[2] - Requested Period(min analysis) : 1000.000
+@P:  sm_motor|c_state_derived_clock[2] - Slack(min analysis) : 994.963
+@P:  sm_motor|c_state_derived_clock[3] - Estimated Frequency(min analysis) : 377.8 MHz
+@P:  sm_motor|c_state_derived_clock[3] - Requested Frequency(min analysis) : 1.0 MHz
+@P:  sm_motor|c_state_derived_clock[3] - Estimated Period(min analysis) : 2.647
+@P:  sm_motor|c_state_derived_clock[3] - Requested Period(min analysis) : 1000.000
+@P:  sm_motor|c_state_derived_clock[3] - Slack(min analysis) : 997.353
+@P:  sm_motor|clk - Estimated Frequency(min analysis) : 198.5 MHz
+@P:  sm_motor|clk - Requested Frequency(min analysis) : 1.0 MHz
+@P:  sm_motor|clk - Estimated Period(min analysis) : 5.037
+@P:  sm_motor|clk - Requested Period(min analysis) : 1000.000
+@P:  sm_motor|clk - Slack(min analysis) : 997.620
+@P: sm_motor Part : ep4ce6ui14-7
+@P: sm_motor I/O ATOMs : 3
+@P: sm_motor Total LUTs : 50 
+@P: sm_motor Register bits : 4
+@P: sm_motor DSP Blocks : 0 (0 nine-bit DSP elements)
+@P:  CPU Time : 0h:00m:02s

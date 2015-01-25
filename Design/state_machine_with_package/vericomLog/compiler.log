@@ -1,0 +1,11 @@
+*design* DebussyLib (btIdent Verdi3_I-2014.03-SP2)
+Command arguments:
+    +define+verilog
+    -2012
+    -inc
+    /home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv
+
+Highest level modules:
+sm_motor
+
+Total	0 error(s),   0 warning(s)

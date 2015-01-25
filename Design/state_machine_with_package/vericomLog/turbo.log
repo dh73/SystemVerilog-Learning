@@ -1,0 +1,3 @@
+Command Line: /home/diego/EDA/Verdi3-I-201403-SP2/platform/LINUXAMD64/bin/vericom -2012 -inc /home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv
+uname(Linux darkstar 3.17.6-1-ARCH #1 SMP PREEMPT Sun Dec 7 23:43:32 UTC 2014 x86_64)
+au time 0.065945 0.043334 0.016666 delta 14348288 14348288 total 102637568 102637568

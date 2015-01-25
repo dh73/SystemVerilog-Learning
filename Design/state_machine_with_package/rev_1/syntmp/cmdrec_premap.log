@@ -1,0 +1,18 @@
+/home/diego/EDA/Synopsys/bin/m_altera  -prodtype synplify_premier -encrypt  -pro  -rundir  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1  -part EP4CE6UI14-7   -maxfan 30 -verification_mode 0  -pipe    -fixgatedclocks 1 -fixgeneratedclocks 1  -syn_altera_model on -mif_files_dirs " " -do_enhanced_opt -fast_synthesis 0  -validate_mif_files  -reporting_ctd 1  -RWCheckOnRam 1       -summaryfile /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synlog/report/proj_1_premap.xml -map -vqm41  -ovqm  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/proj_1.vqm  -conchk_prepass  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/proj_1_cck_prepass.rpt  -autoconstraint  -freq 1.000  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synwork/proj_1_compiler.srs  -flow prepass  -gcc_prepass  -osrd  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synwork/proj_1_premap.srd  -qsap  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/proj_1.sap  -devicelib  /home/diego/EDA/Synopsys/lib/altera/altera.v  -devicelib  /home/diego/EDA/Synopsys/lib/altera/quartus_II121/cycloneive.v  -devicelib  /home/diego/EDA/Synopsys/lib/altera/quartus_II121/altera_mf.v  -devicelib  /home/diego/EDA/Synopsys/lib/altera/quartus_II121/altera_lpm.v  -devicelib  /home/diego/EDA/Synopsys/lib/altera/quartus_II121/altera_primitives.v  -ologparam  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/syntmp/proj_1.plg  -osyn  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synwork/proj_1_premap.srd  -prjdir  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/  -prjname  proj_1  -log  /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synlog/proj_1_premap.srr 
+rc:1 success:1
+/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/proj_1.vqm|o|1417152698|23003
+/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/proj_1_cck_prepass.rpt|o|0|0
+/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synwork/proj_1_compiler.srs|i|1419662332|2226
+/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synwork/proj_1_premap.srd|o|1419662337|3812
+/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/proj_1.sap|o|1419662337|1249
+/home/diego/EDA/Synopsys/lib/altera/altera.v|i|1417150944|761
+/home/diego/EDA/Synopsys/lib/altera/quartus_II121/cycloneive.v|i|1417150947|31297
+/home/diego/EDA/Synopsys/lib/altera/quartus_II121/altera_mf.v|i|1417150947|203770
+/home/diego/EDA/Synopsys/lib/altera/quartus_II121/altera_lpm.v|i|1417150947|14393
+/home/diego/EDA/Synopsys/lib/altera/quartus_II121/altera_primitives.v|i|1417150947|7912
+/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/syntmp/proj_1.plg|o|1419662337|25
+/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synwork/proj_1_premap.srd|o|1419662337|3812
+/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synlog/proj_1_premap.srr|o|1419662337|3067
+/home/diego/EDA/Synopsys/bin/m_altera|i|1417151006|345
+/home/diego/EDA/Synopsys/linux/m_altera|i|1417150991|16668908
+/home/diego/EDA/Synopsys/linux_a_64/m_altera|i|1417151019|19361056

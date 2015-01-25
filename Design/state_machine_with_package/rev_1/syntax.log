@@ -1,0 +1,25 @@
+Synopsys Verilog Compiler, version comp201303rc, Build 045R, built Feb 28 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@I::"/home/diego/EDA/Synopsys/lib/altera/altera.v"
+@I::"/home/diego/EDA/Synopsys/lib/altera/quartus_II121/cycloneive.v"
+@I::"/home/diego/EDA/Synopsys/lib/altera/quartus_II121/altera_mf.v"
+@I::"/home/diego/EDA/Synopsys/lib/altera/quartus_II121/altera_lpm.v"
+@I::"/home/diego/EDA/Synopsys/lib/altera/quartus_II121/altera_primitives.v"
+@I::"/home/diego/EDA/Synopsys/lib/vlog/umr_capim.v"
+@I::"/home/diego/EDA/Synopsys/lib/vlog/scemi_objects.v"
+@I::"/home/diego/EDA/Synopsys/lib/vlog/scemi_pipes.svh"
+@I::"/home/diego/EDA/Synopsys/lib/vlog/hypermods.v"
+@I::"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv"
+@I:"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/datatypes.pkg"
+@E: CG342 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":32:9:32:14|Expecting target variable, found n_sate -- possible misspelling
+@E: CS187 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":73:0:73:8|Expecting endmodule
+2 syntax errors
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 23 20:13:20 2014
+
+###########################################################]

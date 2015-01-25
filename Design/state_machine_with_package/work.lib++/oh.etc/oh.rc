@@ -1,0 +1,5 @@
+@vericom rc file Version 1.0
+[oh]
+invokeDir = /home/diego/Templates/SystemVerilog_book/state_machine_with_package
+hostCommand = -2012 -inc /home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv
+simType = VCS

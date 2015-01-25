@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synlog/proj_1_fpga_mapper.srr</data>
+<title>##### START OF TIMING REPORT #####[</title>
+</report_link>
+<row>
+<data>Clock Name</data>
+<data>Req Freq</data>
+<data>Est Freq</data>
+<data>Slack</data>
+</row>
+<row>
+<data>sm_motor|c_state_derived_clock[2]</data>
+<data>1.0 MHz</data>
+<data>198.5 MHz</data>
+<data>994.963</data>
+</row>
+<row>
+<data>sm_motor|c_state_derived_clock[3]</data>
+<data>1.0 MHz</data>
+<data>377.8 MHz</data>
+<data>997.353</data>
+</row>
+<row>
+<data>sm_motor|clk</data>
+<data>1.0 MHz</data>
+<data>198.5 MHz</data>
+<data>997.620</data>
+</row>
+</report_table>

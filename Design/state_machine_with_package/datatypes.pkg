@@ -1,0 +1,12 @@
+`ifndef COMP_DONE
+  `define COMP_DONE
+
+package datatypes;
+
+  typedef enum logic [1:0] { IDLE, START, STEP, DONE } states;
+  
+endpackage;
+
+import datatypes::*;
+
+`endif

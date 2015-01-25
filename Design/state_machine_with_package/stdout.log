@@ -1,0 +1,121 @@
+
+Starting:    /home/diego/EDA/Synopsys/linux_a_64/mbin/synplify
+Install:     /home/diego/EDA/Synopsys
+Date:        Sun Nov 23 20:12:22 2014
+Version:     H-2013.03
+
+Arguments:   -product synplify_premier
+ProductType: synplify_premier
+
+License checkout: synplifypremier
+License: synplifypremier node-locked 
+Licensed Vendor: All FPGA
+License Option: ident
+
+
+
+log file: "/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.srr"
+
+
+
+Running HDL syntax check...
+syntax_check exited with errors
+Job: "syntax_check" terminated with error status: 2.
+See log file: "/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/syntax.log"
+Return Code: 2
+Run Time:00h:00m:02s
+
+Opening object source file /home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv
+Copied /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.srr to /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/backup/datatypes.srr
+log file: "/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.srr"
+
+
+
+Running proj_1|rev_1
+
+Running: Compile on proj_1|rev_1
+
+Running: Compile HDL/EDIF on proj_1|rev_1
+
+Running: Compile Input on proj_1|rev_1
+compiler exited with errors
+Job: "compiler" terminated with error status: 2.
+See log file: "/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.srr"
+Return Code: 2
+Run Time:00h:00m:01s
+
+Complete: Compile HDL/EDIF on proj_1|rev_1
+Opening object source file /home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv
+log file: "/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.srr"
+
+
+
+Running proj_1|rev_1
+
+Running: Compile on proj_1|rev_1
+
+Running: Compile HDL/EDIF on proj_1|rev_1
+
+Running: Compile Input on proj_1|rev_1
+Copied /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synwork/datatypes_compiler.srs to /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.srs
+compiler Completed with warnings
+Return Code: 1
+Run Time:00h:00m:02s
+
+Complete: Compile HDL/EDIF on proj_1|rev_1
+
+Running: Premap on proj_1|rev_1
+premap Completed with warnings
+Return Code: 1
+Run Time:00h:00m:05s
+
+Complete: Compile on proj_1|rev_1
+
+Running: Map on proj_1|rev_1
+
+Running: Map & Optimize on proj_1|rev_1
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:00h:00m:06s
+
+Complete: Map on proj_1|rev_1
+Complete: Logic Synthesis on proj_1|rev_1
+log file: "/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.srr"
+
+
+
+Running proj_1|rev_1
+
+Running: Compile on proj_1|rev_1
+
+Running: Compile HDL/EDIF on proj_1|rev_1
+
+Running: Compile Input on proj_1|rev_1
+Copied /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synwork/datatypes_compiler.srs to /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.srs
+compiler Completed with warnings
+Return Code: 1
+Run Time:00h:00m:01s
+
+Complete: Compile HDL/EDIF on proj_1|rev_1
+
+Running: Premap on proj_1|rev_1
+premap Completed with warnings
+Return Code: 1
+Run Time:00h:00m:02s
+
+Complete: Compile on proj_1|rev_1
+
+Running: Map on proj_1|rev_1
+
+Running: Map & Optimize on proj_1|rev_1
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:00h:00m:04s
+
+Complete: Map on proj_1|rev_1
+Complete: Logic Synthesis on proj_1|rev_1
+Opening object source file /home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv
+Note: Opening local project RTL file '/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.srs'
+exit status=0
+
+License checkin: synplifypremier

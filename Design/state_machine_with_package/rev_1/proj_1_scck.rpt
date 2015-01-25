@@ -1,0 +1,30 @@
+# Synospys Constraint Checker(syntax only), version maprc, Build 1495R, built Mar  1 2013
+# Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+# Written on Sat Dec 27 00:38:54 2014
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "sm_motor"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+**************
+
+Start                                 Requested     Requested     Clock                           Clock                
+Clock                                 Frequency     Period        Type                            Group                
+-----------------------------------------------------------------------------------------------------------------------
+sm_motor|clk                          1.0 MHz       1000.000      inferred                        Autoconstr_clkgroup_0
+sm_motor|c_state_derived_clock[2]     1.0 MHz       1000.000      derived (from sm_motor|clk)     Autoconstr_clkgroup_0
+sm_motor|c_state_derived_clock[3]     1.0 MHz       1000.000      derived (from sm_motor|clk)     Autoconstr_clkgroup_0
+=======================================================================================================================

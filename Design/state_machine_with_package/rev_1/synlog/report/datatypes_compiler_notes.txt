@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N:: Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/datatypes.pkg":4:8:4:16|Synthesizing module datatypes
+@N: CG364 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/datatypes.pkg":8:10:8:10|Synthesizing module /home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv_unit
+@N: CG364 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":3:7:3:14|Synthesizing module sm_motor
+@N: CL201 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Trying to extract state machine for register c_state
+

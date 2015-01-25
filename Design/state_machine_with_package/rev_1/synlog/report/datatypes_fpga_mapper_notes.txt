@@ -1,0 +1,17 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MT206 |Auto Constrain mode is enabled
+@N: MF578 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":27:1:27:4|Incompatible asynchronous control logic preventing generated clock conversion of tempcount[1] (view:work.sm_motor(verilog)). Check "Force Generated Clock Conversion with Asynchronous Signals" in "GCC & Prototyping Tools" tab or set force_async_genclk_conv option to 1 in project file to enable.
+@N: BN362 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Removing sequential instance c_state[1] of view:ALTERA_APEX.S_DFF_N(PRIM) in hierarchy view:work.sm_motor(verilog) because there are no references to its outputs 
+@N: BN362 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Removing sequential instance c_state[0] of view:ALTERA_APEX.S_DFF_N(PRIM) in hierarchy view:work.sm_motor(verilog) because there are no references to its outputs 
+@N: BN362 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Removing sequential instance c_state_0[0] of view:ALTERA_APEX.S_DFF_N(PRIM) in hierarchy view:work.sm_motor(verilog) because there are no references to its outputs 
+@N: BN362 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Removing sequential instance c_state_0[1] of view:ALTERA_APEX.S_DFF_N(PRIM) in hierarchy view:work.sm_motor(verilog) because there are no references to its outputs 
+@N: MF321 |2 registers to be packed into RAMs/DSPs blocks 
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT535 |Writing timing correlation to file /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes_ctd.txt 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.

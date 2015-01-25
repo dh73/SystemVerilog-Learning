@@ -1,0 +1,2 @@
+@W: FA279 |Inconsistent Quartus device library version: Verilog/VHDL compiled using quartus_II121 device library, but clearbox version is quartus_II140.
+@W: MT529 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Found inferred clock sm_motor|clk which controls 4 sequential elements including c_state[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

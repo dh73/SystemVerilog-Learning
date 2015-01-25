@@ -1,0 +1,61 @@
+#### START OF AREA REPORT #####[
+
+Part:			EP4CE6UI14-7 (Altera)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   sm_motor   ########
+========================================================================
+
+SEQUENTIAL ATOMS
+****************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     4                  100 %                
+======================================================
+Total SEQUENTIAL ATOMS in the block sm_motor:	4 (3.74 % Utilization)
+
+
+COMBINATIONAL ATOMS
+*******************
+
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+ATOMS               50                 100 %                
+ARITHMETIC MODE     0                  0 %                  
+============================================================
+Total COMBINATIONAL ATOMS in the block sm_motor:	50 (46.73 % Utilization)
+
+
+RAMS
+****
+
+Name          Total elements     Number of bits     Utilization     Notes
+-------------------------------------------------------------------------
+SYNC RAMS     0                  0                  0 %                  
+=========================================================================
+Total RAMS in the block sm_motor:	0 (0.00 % Utilization)
+
+
+DSPs
+****
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+MACs     0                  0 %                  
+=================================================
+Total DSPs in the block sm_motor:	0 (0.00 % Utilization)
+
+
+Black Boxes
+***********
+
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+BLACK BOXES     0                  0 %                  
+========================================================
+Total Black Boxes in the block sm_motor:	0 (0.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

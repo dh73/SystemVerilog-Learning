@@ -1,0 +1,14 @@
+dedicated_multiplier_circuitry="AUTO"
+device_family="Stratix III"
+port_signa="PORT_UNUSED"
+port_signb="PORT_UNUSED"
+representation_a="UNSIGNED"
+representation_b="UNSIGNED"
+width_a=8
+width_b=8
+width_result=16
+clock0
+dataa
+datab
+result
+CBX_FILE=clearbox_version.v

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the area information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="1" name="Area Summary">
+<report_link name="Detailed report">
+<data>/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/synlog/report/proj_1_fpga_mapper_resourceusage.rpt</data>
+</report_link>
+<parameter tooltip="Total LUTs for combinational functions used" name="LUTs for combinational functions">
+<data>50</data>
+</parameter>
+<parameter tooltip="Total Non I/O Registers used" name="Non I/O Registers">
+<data>4</data>
+</parameter>
+<parameter tooltip="Total I/O Pins used" name="I/O Pins">
+<data>11</data>
+</parameter>
+<parameter tooltip="Total I/O registers used" name="I/O registers">
+<data>0</data>
+</parameter>
+<parameter tooltip="Total DSP Blocks used" name="DSP Blocks">
+<data>0 (15)</data>
+</parameter>
+<parameter tooltip="Total Memory Bits used" name="Memory Bits">
+<data>0</data>
+</parameter>
+</report_table>

@@ -1,0 +1,2 @@
+@E: CG448 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":49:10:49:13|Invalid assignment to enum variable n_state
+

@@ -1,0 +1,116 @@
+
+BeginView sm_motor NoName
+Inst: i[0]   i_0_ SYNLPM_LATS1 
+Inst: i[1]   i_1_ SYNLPM_LATR1 
+Inst: i[2]   i_2_ SYNLPM_LATR1 
+Inst: i[3]   i_3_ SYNLPM_LATR1 
+Inst: i[4]   i_4_ SYNLPM_LATR1 
+Inst: i[5]   i_5_ SYNLPM_LATR1 
+Inst: i[6]   i_6_ SYNLPM_LATR1 
+Inst: i[7]   i_7_ SYNLPM_LATR1 
+Inst: i[8]   i_8_ SYNLPM_LATR1 
+Inst: i[9]   i_9_ SYNLPM_LATR1 
+Inst: i[10]   i_10_ SYNLPM_LATR1 
+Inst: i[11]   i_11_ SYNLPM_LATR1 
+Inst: i[12]   i_12_ SYNLPM_LATR1 
+Inst: i[13]   i_13_ SYNLPM_LATR1 
+Inst: i[14]   i_14_ SYNLPM_LATR1 
+Inst: i[15]   i_15_ SYNLPM_LATR1 
+Inst: i[16]   i_16_ SYNLPM_LATR1 
+Inst: i[17]   i_17_ SYNLPM_LATR1 
+Inst: i[18]   i_18_ SYNLPM_LATR1 
+Inst: i[19]   i_19_ SYNLPM_LATR1 
+Inst: i[20]   i_20_ SYNLPM_LATR1 
+Inst: i[21]   i_21_ SYNLPM_LATR1 
+Inst: i[22]   i_22_ SYNLPM_LATR1 
+Inst: i[23]   i_23_ SYNLPM_LATR1 
+Inst: i[24]   i_24_ SYNLPM_LATR1 
+Inst: i[25]   i_25_ SYNLPM_LATR1 
+Inst: i[26]   i_26_ SYNLPM_LATR1 
+Inst: i[27]   i_27_ SYNLPM_LATR1 
+Inst: i[28]   i_28_ SYNLPM_LATR1 
+Inst: i[29]   i_29_ SYNLPM_LATR1 
+Inst: i[30]   i_30_ SYNLPM_LATR1 
+Inst: i[31]   i_31_ SYNLPM_LATR1 
+Inst: tempcount[0]   tempcount_0_ SYNLPM_LAT1 
+Inst: tempcount[1]   tempcount_1_ SYNLPM_LAT1 
+Inst: c_state_ret   c_state_ret_Z dffeas 
+Inst: c_state_1[0]   c_state_1_0_ dffeas 
+Inst: c_state_1[1]   c_state_1_1_ dffeas 
+Inst: c_state_0_ret_1   c_state_0_ret_1_Z dffeas 
+Inst: tempcount_RNO[0]   tempcount_RNO_0_ inv 
+Inst: c_state_s1_0_a2   c_state_s1_0_a2_cZ cycloneive_lcell_comb 
+Inst: i_3[9]   i_3_9_ cycloneive_lcell_comb 
+Inst: i_3[10]   i_3_10_ cycloneive_lcell_comb 
+Inst: i_3[11]   i_3_11_ cycloneive_lcell_comb 
+Inst: i_3[12]   i_3_12_ cycloneive_lcell_comb 
+Inst: i_3[13]   i_3_13_ cycloneive_lcell_comb 
+Inst: i_3[14]   i_3_14_ cycloneive_lcell_comb 
+Inst: i_3[15]   i_3_15_ cycloneive_lcell_comb 
+Inst: i_3[16]   i_3_16_ cycloneive_lcell_comb 
+Inst: i_3[17]   i_3_17_ cycloneive_lcell_comb 
+Inst: i_3[18]   i_3_18_ cycloneive_lcell_comb 
+Inst: i_3[19]   i_3_19_ cycloneive_lcell_comb 
+Inst: i_3[20]   i_3_20_ cycloneive_lcell_comb 
+Inst: i_3[21]   i_3_21_ cycloneive_lcell_comb 
+Inst: i_3[22]   i_3_22_ cycloneive_lcell_comb 
+Inst: i_3[23]   i_3_23_ cycloneive_lcell_comb 
+Inst: i_3[24]   i_3_24_ cycloneive_lcell_comb 
+Inst: i_3[25]   i_3_25_ cycloneive_lcell_comb 
+Inst: i_3[26]   i_3_26_ cycloneive_lcell_comb 
+Inst: i_3[27]   i_3_27_ cycloneive_lcell_comb 
+Inst: i_3[28]   i_3_28_ cycloneive_lcell_comb 
+Inst: i_3[29]   i_3_29_ cycloneive_lcell_comb 
+Inst: i_3[30]   i_3_30_ cycloneive_lcell_comb 
+Inst: i_3[31]   i_3_31_ cycloneive_lcell_comb 
+Inst: tempcount_RNIFNRF[1]   tempcount_RNIFNRF_1_ cycloneive_lcell_comb 
+Inst: un3_tempcount_1.SUM[1]   un3_tempcount_1_SUM_1_ cycloneive_lcell_comb 
+Inst: i11_15   i11_15_cZ cycloneive_lcell_comb 
+Inst: q_0_iv[6]   q_0_iv_6_ cycloneive_lcell_comb 
+Inst: i11_17   i11_17_cZ cycloneive_lcell_comb 
+Inst: i11_18   i11_18_cZ cycloneive_lcell_comb 
+Inst: i11_19   i11_19_cZ cycloneive_lcell_comb 
+Inst: i11_20   i11_20_cZ cycloneive_lcell_comb 
+Inst: i11_21   i11_21_cZ cycloneive_lcell_comb 
+Inst: i11_22   i11_22_cZ cycloneive_lcell_comb 
+Inst: i11_23   i11_23_cZ cycloneive_lcell_comb 
+Inst: c_state_1_RNIJTEM[0]   c_state_1_RNIJTEM_0_ cycloneive_lcell_comb 
+Inst: c_state_1_RNI9QF81[0]   c_state_1_RNI9QF81_0_ cycloneive_lcell_comb 
+Inst: i11_28   i11_28_cZ cycloneive_lcell_comb 
+Inst: c_state_s2_0_a2_0   c_state_s2_0_a2_0_cZ cycloneive_lcell_comb 
+Inst: c_state_tr6_0   c_state_tr6_0_cZ cycloneive_lcell_comb 
+Inst: i11_29   i11_29_cZ cycloneive_lcell_comb 
+Inst: i11   i11_cZ cycloneive_lcell_comb 
+Inst: q_0_iv_x[0]   q_0_iv_x_0_ cycloneive_lcell_comb 
+Inst: q_0_iv_x[1]   q_0_iv_x_1_ cycloneive_lcell_comb 
+Inst: q_0_iv_x[2]   q_0_iv_x_2_ cycloneive_lcell_comb 
+Inst: q_0_iv_x[3]   q_0_iv_x_3_ cycloneive_lcell_comb 
+Inst: q_0_iv_x[4]   q_0_iv_x_4_ cycloneive_lcell_comb 
+Inst: q_0_iv_x[5]   q_0_iv_x_5_ cycloneive_lcell_comb 
+Inst: q_0_iv_x[7]   q_0_iv_x_7_ cycloneive_lcell_comb 
+Inst: c_state_0[1]   c_state_0_1_ ghost 
+Inst: c_state_0[0]   c_state_0_0_ ghost 
+Inst: c_state[0]   c_state_0_ ghost 
+Inst: c_state[1]   c_state_1_ ghost 
+Inst: q_out[7]   q_out_7_ cycloneive_io_obuf 
+Inst: q_out[6]   q_out_6_ cycloneive_io_obuf 
+Inst: q_out[5]   q_out_5_ cycloneive_io_obuf 
+Inst: q_out[4]   q_out_4_ cycloneive_io_obuf 
+Inst: q_out[3]   q_out_3_ cycloneive_io_obuf 
+Inst: q_out[2]   q_out_2_ cycloneive_io_obuf 
+Inst: q_out[1]   q_out_1_ cycloneive_io_obuf 
+Inst: q_out[0]   q_out_0_ cycloneive_io_obuf 
+Inst: c_state[3:0]   c_state_3_0_ ghost 
+Net:  un3_tempcount_1.SUM[1]   un3_tempcount_1_SUM[1] 
+Net:  c_state_ret   c_state[3] 
+Net:  c_state_0_ret_1   c_state[2] 
+EndView sm_motor NoName
+
+BeginView SYNLPM_LATS1 NoName
+EndView SYNLPM_LATS1 NoName
+
+BeginView SYNLPM_LATR1 NoName
+EndView SYNLPM_LATR1 NoName
+
+BeginView SYNLPM_LAT1 NoName
+EndView SYNLPM_LAT1 NoName

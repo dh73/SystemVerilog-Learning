@@ -1,0 +1,18 @@
+@N: CG364 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/datatypes.pkg":4:8:4:16|Synthesizing module datatypes
+
+@N: CG364 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/datatypes.pkg":8:10:8:10|Synthesizing module /home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv_unit
+
+Selecting top level module sm_motor
+@N: CG364 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":3:7:3:14|Synthesizing module sm_motor
+
+@W: CL118 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":27:1:27:4|Latch generated from always block for signal i[31:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":27:1:27:4|Latch generated from always block for signal tempcount[1:0]; possible missing assignment in an if or case statement.
+@W: CL217 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":27:1:27:4|always_comb does not infer combinatorial logic
+@N: CL201 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Trying to extract state machine for register c_state
+Extracted state machine for register c_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL249 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Initial value is not supported on state machine c_state

@@ -1,0 +1,32 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 65536 bytes [need 64K bytes if disable swap]
+
+used block: 8 [memory(1) file(7)]
+                 [ 64K(8) { total 512K bytes } ]
+overhead: (9306) bytes for (8) blocks [Average: (1163) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 0(times) 0K(bytes) [0K bytes compressed data from file]
+access => 0(times) 0K(bytes)
+          [hit ratio: 0%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/diego/Templates/SystemVerilog_book/state_machine_with_package/vericomLog)
+used swap file number: (0)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (2)
+closeHead: (1)
+closeTail: (1)
+openCnt: (1)
+fid(1): fd(18) fileName(/home/diego/Templates/SystemVerilog_book/state_machine_with_package/vericomLog/_swap_0001#-1463811228#13054)
+	size(0) lastModTime(0) curModTime(1420781450)
+	mode(w+b)	hot(0) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)

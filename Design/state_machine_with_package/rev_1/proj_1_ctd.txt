@@ -1,0 +1,102 @@
+
+
+End Points:
+
+   Index   Instance          Pin       Type   Start Clock                           End Clock                             Clock Delay    Req Per      Slack
+   -----   --------          ---       ----   -----------                           ---------                             -----------    -------      -----
+       1   c_state_ret       d         reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|clk:r                              0.000   1000.000    994.963
+       2   c_state_0_ret_1   d         reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|clk:r                              0.000   1000.000    994.977
+       3   c_state_1[0]      d         reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|clk:r                              0.000   1000.000    995.406
+       4   c_state_ret       d         reg    sm_motor|c_state_derived_clock[3]:r   sm_motor|clk:r                              0.000   1000.000    997.353
+       5   c_state_0_ret_1   d         reg    sm_motor|c_state_derived_clock[3]:r   sm_motor|clk:r                              0.000   1000.000    997.367
+       6   c_state_ret       d         reg    sm_motor|clk:r                        sm_motor|clk:r                              0.000   1000.000    997.620
+       7   c_state_0_ret_1   d         reg    sm_motor|clk:r                        sm_motor|clk:r                              0.000   1000.000    997.634
+       8   c_state_1[0]      d         reg    sm_motor|c_state_derived_clock[3]:r   sm_motor|clk:r                              0.000   1000.000    997.796
+       9   c_state_1[0]      d         reg    sm_motor|clk:r                        sm_motor|clk:r                              0.000   1000.000    998.063
+      10   c_state_1[1]      d         reg    sm_motor|c_state_derived_clock[3]:r   sm_motor|clk:r                              0.000   1000.000    998.078
+      11   c_state_1[1]      d         reg    sm_motor|clk:r                        sm_motor|clk:r                              0.000   1000.000    998.498
+      12   i[10]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      13   i[11]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      14   i[12]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      15   i[13]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      16   i[14]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      17   i[15]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      18   i[16]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      19   i[17]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      20   i[18]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      21   i[19]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      22   i[20]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      23   i[21]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      24   i[22]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      25   i[23]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      26   i[24]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      27   i[25]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      28   i[26]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      29   i[27]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      30   i[28]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      31   i[29]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      32   i[30]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      33   i[31]             DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      34   i[9]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1495.991
+      35   i[0]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1496.760
+      36   tempcount[1]      DATA[0]   reg    sm_motor|c_state_derived_clock[3]:r   sm_motor|c_state_derived_clock[3]:r         0.000   2000.000   1498.677
+      37   i[1]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1499.446
+      38   i[2]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1499.446
+      39   i[3]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1499.446
+      40   i[4]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1499.446
+      41   i[5]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1499.446
+      42   i[6]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1499.446
+      43   i[7]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1499.446
+      44   i[8]              DATA[0]   reg    sm_motor|c_state_derived_clock[2]:r   sm_motor|c_state_derived_clock[2]:r         0.000   2000.000   1499.446
+      45   tempcount[0]      DATA[0]   reg    sm_motor|c_state_derived_clock[3]:r   sm_motor|c_state_derived_clock[3]:r         0.000   2000.000   1499.446
+
+
+Start Points:
+
+   Index   Instance       Pin    Type   Start Clock                           Clock Delay      Slack
+   -----   --------       ---    ----   -----------                           -----------      -----
+       1   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000    994.963
+       2   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000    994.977
+       3   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000    995.406
+       4   tempcount[0]   Q[0]   reg    sm_motor|c_state_derived_clock[3]:r         0.000    997.353
+       5   tempcount[0]   Q[0]   reg    sm_motor|c_state_derived_clock[3]:r         0.000    997.367
+       6   c_state_1[1]   q      reg    sm_motor|clk:r                              0.000    997.620
+       7   c_state_1[1]   q      reg    sm_motor|clk:r                              0.000    997.634
+       8   tempcount[0]   Q[0]   reg    sm_motor|c_state_derived_clock[3]:r         0.000    997.796
+       9   c_state_1[1]   q      reg    sm_motor|clk:r                              0.000    998.063
+      10   tempcount[0]   Q[0]   reg    sm_motor|c_state_derived_clock[3]:r         0.000    998.078
+      11   c_state_ret    q      reg    sm_motor|clk:r                              0.000    998.498
+      12   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      13   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      14   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      15   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      16   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      17   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      18   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      19   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      20   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      21   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      22   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      23   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      24   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      25   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      26   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      27   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      28   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      29   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      30   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      31   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      32   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      33   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      34   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1495.991
+      35   i[28]          Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1496.760
+      36   tempcount[0]   Q[0]   reg    sm_motor|c_state_derived_clock[3]:r         0.000   1498.677
+      37   i[0]           Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1499.446
+      38   i[1]           Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1499.446
+      39   i[2]           Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1499.446
+      40   i[3]           Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1499.446
+      41   i[4]           Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1499.446
+      42   i[5]           Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1499.446
+      43   i[6]           Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1499.446
+      44   i[7]           Q[0]   reg    sm_motor|c_state_derived_clock[2]:r         0.000   1499.446
+      45   tempcount[0]   Q[0]   reg    sm_motor|c_state_derived_clock[3]:r         0.000   1499.446

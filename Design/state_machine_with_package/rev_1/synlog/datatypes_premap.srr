@@ -1,0 +1,44 @@
+Synopsys Altera Technology Pre-mapping, Version maprc, Build 1495R, Built Mar  1 2013 12:41:03
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version H-2013.03
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@L: /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes_scck.rpt 
+Printing clock  summary report in "/home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+@W: FA279 |Inconsistent Quartus device library version: Verilog/VHDL compiled using quartus_II121 device library, but clearbox version is quartus_II140.
+
+Finished Clear Box Flow. (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Clock Summary
+**************
+
+Start                                 Requested     Requested     Clock                           Clock                
+Clock                                 Frequency     Period        Type                            Group                
+-----------------------------------------------------------------------------------------------------------------------
+sm_motor|clk                          1.0 MHz       1000.000      inferred                        Autoconstr_clkgroup_0
+sm_motor|c_state_derived_clock[2]     1.0 MHz       1000.000      derived (from sm_motor|clk)     Autoconstr_clkgroup_0
+sm_motor|c_state_derived_clock[3]     1.0 MHz       1000.000      derived (from sm_motor|clk)     Autoconstr_clkgroup_0
+=======================================================================================================================
+
+@W: MT529 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Found inferred clock sm_motor|clk which controls 4 sequential elements including c_state[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.@N: BN225 |Writing default property annotation file /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/datatypes.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 50MB peak: 115MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Nov 23 20:15:11 2014
+
+###########################################################]

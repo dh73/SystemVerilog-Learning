@@ -1,0 +1,55 @@
+# Written by Synplify Premier version maprc, Build 1495R. Synopsys Run ID: sid1419662337 
+# Top Level Design Parameters 
+
+# Clocks 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {sm_motor|clk} [get_ports {clk}] 
+
+# Virtual Clocks 
+
+# Generated Clocks 
+derive_pll_clocks
+create_generated_clock -name {sm_motor|c_state_derived_clock[2]} -divide_by 1 -source [get_pins {c_state_0_ret_1_Z|clk}] [get_pins {c_state_0_ret_1_Z|q}] 
+create_generated_clock -name {sm_motor|c_state_derived_clock[3]} -divide_by 1 -source [get_pins {c_state_ret_Z|clk}] [get_pins {c_state_ret_Z|q}] 
+
+# Paths Between Clocks 
+
+# Multicycle Constraints 
+set_multicycle_path 2 -setup -from [get_clocks {sm_motor|c_state_derived_clock[2]}] -to [get_clocks {sm_motor|c_state_derived_clock[2]}] 
+set_multicycle_path 1 -hold -from [get_clocks {sm_motor|c_state_derived_clock[2]}] -to [get_clocks {sm_motor|c_state_derived_clock[2]}] 
+set_multicycle_path 2 -setup -from [get_clocks {sm_motor|c_state_derived_clock[3]}] -to [get_clocks {sm_motor|c_state_derived_clock[3]}] 
+set_multicycle_path 1 -hold -from [get_clocks {sm_motor|c_state_derived_clock[3]}] -to [get_clocks {sm_motor|c_state_derived_clock[3]}] 
+
+# Point-to-point Delay Constraints 
+
+# False Path Constraints 
+
+# Output Load Constraints 
+
+# Driving Cell Constraints 
+
+# Input Delay Constraints 
+
+# Output Delay Constraints 
+
+# Wire Loads 
+
+# Other Constraints 
+
+# syn_hier Attributes 
+
+# set_case Attributes 
+
+# Clock Delay Constraints 
+
+# syn_mode Attributes 
+
+# Cells 
+
+# Port DRC Rules 
+
+# Input Transition Constraints 
+
+# Unused constraints (intentionally commented out) 
+
+# Non-forward-annotatable constraints (intentionally commented out) 
+

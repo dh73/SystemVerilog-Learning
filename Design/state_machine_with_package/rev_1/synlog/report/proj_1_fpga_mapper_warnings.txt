@@ -1,0 +1,2 @@
+@W: FA279 |Inconsistent Quartus device library version: Verilog/VHDL compiled using quartus_II121 device library, but clearbox version is quartus_II140.
+@W: MT420 |Found inferred clock sm_motor|clk with period 1000.00ns. Please declare a user-defined clock on object "p:clk"

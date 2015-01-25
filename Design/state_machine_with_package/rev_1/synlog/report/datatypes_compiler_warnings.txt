@@ -1,0 +1,5 @@
+@W: CL118 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":27:1:27:4|Latch generated from always block for signal i[31:0]; possible missing assignment in an if or case statement.
+@W: CL118 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":27:1:27:4|Latch generated from always block for signal tempcount[1:0]; possible missing assignment in an if or case statement.
+@W: CL217 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":27:1:27:4|always_comb does not infer combinatorial logic
+@W: CL249 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Initial value is not supported on state machine c_state
+

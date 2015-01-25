@@ -1,0 +1,487 @@
+Synopsys Altera Technology Mapper, Version maprc, Build 1495R, Built Mar  1 2013 12:41:03
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version H-2013.03
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+@W: FA279 |Inconsistent Quartus device library version: Verilog/VHDL compiled using quartus_II121 device library, but clearbox version is quartus_II140.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+Encoding state machine c_state[3:0] (view:work.sm_motor(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+@N: MF578 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":27:1:27:4|Incompatible asynchronous control logic preventing generated clock conversion of tempcount[1] (view:work.sm_motor(verilog)). Check "Force Generated Clock Conversion with Asynchronous Signals" in "GCC & Prototyping Tools" tab or set force_async_genclk_conv option to 1 in project file to enable.
+@N: BN362 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Removing sequential instance c_state[1] of view:ALTERA_APEX.S_DFF_N(PRIM) in hierarchy view:work.sm_motor(verilog) because there are no references to its outputs 
+@N: BN362 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Removing sequential instance c_state[0] of view:ALTERA_APEX.S_DFF_N(PRIM) in hierarchy view:work.sm_motor(verilog) because there are no references to its outputs 
+@N: BN362 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Removing sequential instance c_state_0[0] of view:ALTERA_APEX.S_DFF_N(PRIM) in hierarchy view:work.sm_motor(verilog) because there are no references to its outputs 
+@N: BN362 :"/home/diego/Templates/SystemVerilog_book/state_machine_with_package/sm_motor.sv":16:3:16:11|Removing sequential instance c_state_0[1] of view:ALTERA_APEX.S_DFF_N(PRIM) in hierarchy view:work.sm_motor(verilog) because there are no references to its outputs 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 115MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 115MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 115MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 115MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 115MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 115MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 115MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 115MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 115MB)
+
+@N: MF321 |2 registers to be packed into RAMs/DSPs blocks 
+		c_state_0[0]
+		c_state_0[1]
+
+New registers created by packing :
+		c_state_0_ret_1
+		c_state_ret
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 113MB peak: 115MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 116MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_in              cycloneive_io_ibuf     4          c_state_1[0]   
+=======================================================================================
+===== Gated/Generated Clocks =====
+************** None **************
+----------------------------------
+==================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Writing Analyst data base /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/proj_1.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 116MB)
+
+Writing Verilog Netlist and constraint files
+Writing .vqm output for Quartus
+
+Writing scf file... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 116MB)
+
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 112MB peak: 116MB)
+
+@W: MT420 |Found inferred clock sm_motor|clk with period 1000.00ns. Please declare a user-defined clock on object "p:clk"
+
+Found clock sm_motor|c_state_derived_clock[2] with period 1000.00ns 
+Found clock sm_motor|c_state_derived_clock[3] with period 1000.00ns 
+@N: MT535 |Writing timing correlation to file /home/diego/Templates/SystemVerilog_book/state_machine_with_package/rev_1/proj_1_ctd.txt 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Dec 27 00:39:01 2014
+#
+
+
+Top view:               sm_motor
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 994.963
+
+                                      Requested     Estimated     Requested     Estimated                 Clock                           Clock                
+Starting Clock                        Frequency     Frequency     Period        Period        Slack       Type                            Group                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+sm_motor|c_state_derived_clock[2]     1.0 MHz       198.5 MHz     1000.000      5.037         994.963     derived (from sm_motor|clk)     Autoconstr_clkgroup_0
+sm_motor|c_state_derived_clock[3]     1.0 MHz       377.8 MHz     1000.000      2.647         997.353     derived (from sm_motor|clk)     Autoconstr_clkgroup_0
+sm_motor|clk                          1.0 MHz       198.5 MHz     1000.000      5.037         997.620     inferred                        Autoconstr_clkgroup_0
+===============================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                |    rise  to  rise     |    fall  to  fall   |    rise  to  fall      |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                           Ending                             |  constraint  slack    |  constraint  slack  |  constraint  slack     |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+sm_motor|clk                       sm_motor|clk                       |  1000.000    997.620  |  No paths    -      |  No paths    -         |  No paths    -    
+sm_motor|c_state_derived_clock[2]  sm_motor|clk                       |  1000.000    994.963  |  No paths    -      |  No paths    -         |  No paths    -    
+sm_motor|c_state_derived_clock[2]  sm_motor|c_state_derived_clock[2]  |  1000.000    False    |  No paths    -      |  500.000     1495.991  |  No paths    -    
+sm_motor|c_state_derived_clock[3]  sm_motor|clk                       |  1000.000    997.353  |  No paths    -      |  No paths    -         |  No paths    -    
+sm_motor|c_state_derived_clock[3]  sm_motor|c_state_derived_clock[3]  |  1000.000    False    |  No paths    -      |  500.000     1498.677  |  No paths    -    
+=================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: sm_motor|c_state_derived_clock[2]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                                                  Arrival            
+Instance     Reference                             Type             Pin      Net       Time        Slack  
+             Clock                                                                                        
+----------------------------------------------------------------------------------------------------------
+i[28]        sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[28]     0.845       994.963
+i[29]        sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[29]     0.845       994.969
+i[15]        sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[15]     0.845       995.223
+i[11]        sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[11]     0.845       995.229
+i[14]        sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[14]     0.845       995.229
+i[5]         sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[5]      0.845       995.229
+i[10]        sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[10]     0.845       995.235
+i[4]         sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[4]      0.845       995.235
+i[12]        sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[12]     0.845       995.237
+i[27]        sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     Q[0]     i[27]     0.845       995.237
+==========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                                      Required             
+Instance            Reference                             Type             Pin         Net                        Time         Slack   
+                    Clock                                                                                                              
+---------------------------------------------------------------------------------------------------------------------------------------
+c_state_ret         sm_motor|c_state_derived_clock[2]     dffeas           d           c_state_tr6_0              1000.527     994.963 
+c_state_0_ret_1     sm_motor|c_state_derived_clock[2]     dffeas           d           c_state_s2_0_a2_0          1000.527     994.977 
+c_state_1[0]        sm_motor|c_state_derived_clock[2]     dffeas           d           c_state_ns_0_0_0__g0_0     1000.527     995.406 
+i[9]                sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     DATA[0]     i_3[9]                     1500.631     1495.991
+i[10]               sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     DATA[0]     i_3[10]                    1500.631     1495.991
+i[11]               sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     DATA[0]     i_3[11]                    1500.631     1495.991
+i[12]               sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     DATA[0]     i_3[12]                    1500.631     1495.991
+i[13]               sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     DATA[0]     i_3[13]                    1500.631     1495.991
+i[14]               sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     DATA[0]     i_3[14]                    1500.631     1495.991
+i[15]               sm_motor|c_state_derived_clock[2]     SYNLPM_LATR1     DATA[0]     i_3[15]                    1500.631     1495.991
+=======================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.527
+
+    - Propagation time:                      5.564
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     994.963
+
+    Number of logic level(s):                6
+    Starting point:                          i[28] / Q[0]
+    Ending point:                            c_state_ret / d
+    The start point is clocked by            sm_motor|c_state_derived_clock[2] [rising] on pin GATE
+    The end   point is clocked by            sm_motor|clk [rising] on pin clk
+
+Instance / Net                                            Pin         Pin               Arrival     No. of    
+Name                            Type                      Name        Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+i[28]                           SYNLPM_LATR1              Q[0]        Out     0.845     0.845       -         
+i[28]                           Net                       -           -       0.333     -           2         
+i11_15                          cycloneive_lcell_comb     datab       In      -         1.178       -         
+i11_15                          cycloneive_lcell_comb     combout     Out     0.443     1.621       -         
+i11_15                          Net                       -           -       0.326     -           1         
+i11_28                          cycloneive_lcell_comb     datac       In      -         1.947       -         
+i11_28                          cycloneive_lcell_comb     combout     Out     0.429     2.376       -         
+i11_28                          Net                       -           -       0.326     -           1         
+i11                             cycloneive_lcell_comb     datac       In      -         2.701       -         
+i11                             cycloneive_lcell_comb     combout     Out     0.429     3.130       -         
+i11                             Net                       -           -       0.741     -           25        
+run_in_RNIIF0J                  cycloneive_lcell_comb     datac       In      -         3.871       -         
+run_in_RNIIF0J                  cycloneive_lcell_comb     combout     Out     0.429     4.300       -         
+c_state_ns_0_0_0__g0_0_m3_x     Net                       -           -       0.326     -           1         
+c_state_1_RNI9QF81[0]           cycloneive_lcell_comb     datad       In      -         4.626       -         
+c_state_1_RNI9QF81[0]           cycloneive_lcell_comb     combout     Out     0.155     4.781       -         
+c_state_ns_0_0_0__g0_0          Net                       -           -       0.340     -           3         
+c_state_tr6_0                   cycloneive_lcell_comb     datab       In      -         5.121       -         
+c_state_tr6_0                   cycloneive_lcell_comb     combout     Out     0.443     5.564       -         
+c_state_tr6_0                   Net                       -           -       0.000     -           1         
+c_state_ret                     dffeas                    d           In      -         5.564       -         
+==============================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 5.037 is 2.646(52.5%) logic and 2.391(47.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: sm_motor|c_state_derived_clock[3]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                                        Arrival            
+Instance         Reference                             Type            Pin      Net              Time        Slack  
+                 Clock                                                                                              
+--------------------------------------------------------------------------------------------------------------------
+tempcount[0]     sm_motor|c_state_derived_clock[3]     SYNLPM_LAT1     Q[0]     tempcount[0]     0.845       997.353
+tempcount[1]     sm_motor|c_state_derived_clock[3]     SYNLPM_LAT1     Q[0]     tempcount[1]     0.845       997.367
+====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                                     Required             
+Instance            Reference                             Type            Pin         Net                        Time         Slack   
+                    Clock                                                                                                             
+--------------------------------------------------------------------------------------------------------------------------------------
+c_state_ret         sm_motor|c_state_derived_clock[3]     dffeas          d           c_state_tr6_0              1000.527     997.353 
+c_state_0_ret_1     sm_motor|c_state_derived_clock[3]     dffeas          d           c_state_s2_0_a2_0          1000.527     997.367 
+c_state_1[0]        sm_motor|c_state_derived_clock[3]     dffeas          d           c_state_ns_0_0_0__g0_0     1000.527     997.796 
+c_state_1[1]        sm_motor|c_state_derived_clock[3]     dffeas          d           c_state_ns_0_0_1__g0_0     1000.527     998.078 
+tempcount[1]        sm_motor|c_state_derived_clock[3]     SYNLPM_LAT1     DATA[0]     un3_tempcount_1.SUM[1]     1500.631     1498.677
+tempcount[0]        sm_motor|c_state_derived_clock[3]     SYNLPM_LAT1     DATA[0]     tempcount_RNO[0]           1500.631     1499.446
+======================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.527
+
+    - Propagation time:                      3.174
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 997.353
+
+    Number of logic level(s):                3
+    Starting point:                          tempcount[0] / Q[0]
+    Ending point:                            c_state_ret / d
+    The start point is clocked by            sm_motor|c_state_derived_clock[3] [rising] on pin GATE
+    The end   point is clocked by            sm_motor|clk [rising] on pin clk
+
+Instance / Net                                       Pin         Pin               Arrival     No. of    
+Name                       Type                      Name        Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+tempcount[0]               SYNLPM_LAT1               Q[0]        Out     0.845     0.845       -         
+tempcount[0]               Net                       -           -       0.340     -           3         
+tempcount_RNIFNRF[1]       cycloneive_lcell_comb     datab       In      -         1.185       -         
+tempcount_RNIFNRF[1]       cycloneive_lcell_comb     combout     Out     0.443     1.628       -         
+c_state_ns_0_0_0__g4       Net                       -           -       0.333     -           2         
+c_state_1_RNI9QF81[0]      cycloneive_lcell_comb     datac       In      -         1.961       -         
+c_state_1_RNI9QF81[0]      cycloneive_lcell_comb     combout     Out     0.429     2.390       -         
+c_state_ns_0_0_0__g0_0     Net                       -           -       0.340     -           3         
+c_state_tr6_0              cycloneive_lcell_comb     datab       In      -         2.731       -         
+c_state_tr6_0              cycloneive_lcell_comb     combout     Out     0.443     3.174       -         
+c_state_tr6_0              Net                       -           -       0.000     -           1         
+c_state_ret                dffeas                    d           In      -         3.174       -         
+=========================================================================================================
+Total path delay (propagation time + setup - ICD at endpoint) of 2.647 is 1.633(61.7%) logic and 1.014(38.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: sm_motor|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                             Arrival            
+Instance         Reference        Type       Pin     Net              Time        Slack  
+                 Clock                                                                   
+-----------------------------------------------------------------------------------------
+c_state_1[1]     sm_motor|clk     dffeas     q       c_state_1[1]     0.845       997.620
+c_state_ret      sm_motor|clk     dffeas     q       c_state_ret      0.845       998.047
+c_state_1[0]     sm_motor|clk     dffeas     q       c_state_1[0]     0.845       998.100
+=========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                       Required            
+Instance            Reference        Type       Pin     Net                        Time         Slack  
+                    Clock                                                                              
+-------------------------------------------------------------------------------------------------------
+c_state_ret         sm_motor|clk     dffeas     d       c_state_tr6_0              1000.527     997.620
+c_state_0_ret_1     sm_motor|clk     dffeas     d       c_state_s2_0_a2_0          1000.527     997.634
+c_state_1[0]        sm_motor|clk     dffeas     d       c_state_ns_0_0_0__g0_0     1000.527     998.063
+c_state_1[1]        sm_motor|clk     dffeas     d       c_state_ns_0_0_1__g0_0     1000.527     998.498
+=======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.086
+    + Intrinsic clock delay:                 0.613
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1000.527
+
+    - Propagation time:                      2.294
+    - Intrinsic clock delay:                 0.613
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 997.620
+
+    Number of logic level(s):                3
+    Starting point:                          c_state_1[1] / q
+    Ending point:                            c_state_ret / d
+    The start point is clocked by            sm_motor|clk [rising] on pin clk
+    The end   point is clocked by            sm_motor|clk [rising] on pin clk
+
+Instance / Net                                            Pin         Pin               Arrival     No. of    
+Name                            Type                      Name        Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+c_state_1[1]                    dffeas                    q           Out     0.232     0.845       -         
+c_state_1[1]                    Net                       -           -       0.355     -           5         
+run_in_RNIIF0J                  cycloneive_lcell_comb     datab       In      -         1.200       -         
+run_in_RNIIF0J                  cycloneive_lcell_comb     combout     Out     0.443     1.643       -         
+c_state_ns_0_0_0__g0_0_m3_x     Net                       -           -       0.326     -           1         
+c_state_1_RNI9QF81[0]           cycloneive_lcell_comb     datad       In      -         1.969       -         
+c_state_1_RNI9QF81[0]           cycloneive_lcell_comb     combout     Out     0.155     2.124       -         
+c_state_ns_0_0_0__g0_0          Net                       -           -       0.340     -           3         
+c_state_tr6_0                   cycloneive_lcell_comb     datab       In      -         2.464       -         
+c_state_tr6_0                   cycloneive_lcell_comb     combout     Out     0.443     2.907       -         
+c_state_tr6_0                   Net                       -           -       0.000     -           1         
+c_state_ret                     dffeas                    d           In      -         2.907       -         
+==============================================================================================================
+Total path delay (propagation time + ICD at startpoint + setup - ICD at endpoint) of 2.380 is 1.359(57.1%) logic and 1.021(42.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+*Arrival time includes intrinsic clock delay at start point and clock delay at startpoint
+
+
+
+##### END OF TIMING REPORT #####]
+
+##### START OF AREA REPORT #####[
+Design view:work.sm_motor(verilog)
+Selecting part EP4CE6U14I7
+@N: FA174 |The following device usage report estimates place and route data. Please look at the place and route report for final resource usage.
+
+Total combinational functions 50 of 6272 ( 0%)
+Logic element usage by number of inputs
+		  4 input functions 	 13
+		  3 input functions 	 9
+		  <=2 input functions 	 28
+Logic elements by mode
+		  normal mode            50
+		  arithmetic mode        0
+Total registers 4 of 6272 ( 0%)
+I/O pins 11 of 180 ( 6%), total I/O based on largest package of this part.
+
+Number of I/O registers
+			Input DDRs    :0
+			Output DDRs   :0
+
+DSP Blocks:     0  (0 nine-bit DSP elements).
+DSP Utilization: 0.00% of available 15 blocks (30 nine-bit).
+ShiftTap:       0  (0 registers)
+Ena:             0
+Sload:           0
+Sclr:            0
+Total ESB:      0 bits 
+
+LPM latches:    34
+
+##### END OF AREA REPORT #####]
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 44MB peak: 116MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Sat Dec 27 00:39:01 2014
+
+###########################################################]
