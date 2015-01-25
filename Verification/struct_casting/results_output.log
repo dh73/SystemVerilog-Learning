@@ -1,0 +1,18 @@
+Parsing design file 'structs.sv'
+Top Level Modules:
+       structs
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+recompiling module structs
+All of 3 modules done
+
+a=00001010  b=0   c=0064
+a=00001111  b=0   c=0064
+a = 00001111 b = 0 c = dead
+Printing array of objects
+
+a = 00001011 b = 0 c = 0065
+a = 00001010 b = 0 c = 0064
+$finish called from file "structs.sv", line 31.
+$finish at simulation time                 1000
