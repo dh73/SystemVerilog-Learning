@@ -2,7 +2,7 @@
 /*				This code is part of a set of examples 						*/
 /*	Diego Hdez R.															*/
 /*  dhdezr@gmail.com														*/
-/*  Licensed by: WTFPL ( Do What the Fuck You Wamt to ).					*/
+/*  Licensed by: WTFPL ( Do What the Fuck You Want to ).					*/
 //////////////////////////////////////////////////////////////////////////////
 
 timeunit 1ns;

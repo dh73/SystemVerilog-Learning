@@ -1,0 +1,56 @@
+Command: vcs -sverilog string_ex.sv -debug_all -R -l output_results.log
+                         Chronologic VCS (TM)
+            Version I-2014.03 -- Sat Jan 24 21:53:04 2015
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'string_ex.sv'
+Top Level Modules:
+       string_ex
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+2 modules and 0 UDP read.
+	However, due to incremental compilation, only 1 module needs to be compiled.
+recompiling module string_ex because:
+	This module or some inlined child module(s) has/have been modified.
+rm -f _csrc*.so linux_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc1.so --whole-archive _vcsobj_1_1.a \
+--no-whole-archive
+ld -m elf_i386 -shared -o .//../simv.daidir//_csrc0.so 5NrI_d.o 5NrIB_d.o SIM_l.o \
+
+ld -m elf_i386 -shared -o .//../simv.daidir//pre_vcsobj_0_1.so --whole-archive pre_vcsobj_0_1.a \
+--no-whole-archive
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv  -m32 -m32   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  _csrc1.so _csrc0.so   pre_vcsobj_0_1.so \
+rmapats_mop.o rmapats.o rmar.o           /home/diego/EDA/VCS_mx_2014/linux/lib/libzerosoft_rt_stubs.so \
+/home/diego/EDA/VCS_mx_2014/linux/lib/libvirsim.so /home/diego/EDA/VCS_mx_2014/linux/lib/librterrorinf.so \
+/home/diego/EDA/VCS_mx_2014/linux/lib/libsnpsmalloc.so    /home/diego/EDA/VCS_mx_2014/linux/lib/libvcsnew.so \
+/home/diego/EDA/VCS_mx_2014/linux/lib/libuclinative.so   -Wl,-whole-archive /home/diego/EDA/VCS_mx_2014/linux/lib/libvcsucli.so \
+-Wl,-no-whole-archive          /home/diego/EDA/VCS_mx_2014/linux/lib/vcs_save_restore_new.o \
+/home/diego/EDA/VCS_mx_2014/linux/lib/ctype-stubs_32.a -ldl -lm  -lc -lpthread -ldl \
+
+../simv up to date
+Command: ./simv -a output_results.log
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03; Runtime version I-2014.03;  Jan 24 21:53 2015
+My string = The original string
+My new string = This is new string of different lenght
+My new string=THIS IS NEW STRING OF DIFFERENT LENGHT
+The lenght of the string MyNewString is         38
+String compare don't match
+
+String variable compare don't match
+
+$finish called from file "string_ex.sv", line 42.
+$finish at simulation time                 1000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1000 ps
+CPU Time:      0.660 seconds;       Data structure size:   0.0Mb
+Sat Jan 24 21:53:09 2015
+CPU time: .290 seconds to compile + .066 seconds to elab + .556 seconds to link + .798 seconds in simulation
